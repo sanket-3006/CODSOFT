@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/be17837936.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ***** Header start ***** -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/newlogo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skill</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web developer</p>
+                <h1>Hi, I'm <span>Sanket</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Header end ***** -->
+
+
+    <!-- ***** About Start ***** -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>Web developers build and maintain websites using languages like HTML, CSS, and JavaScript. They
+                        collaborate with designers, specialize in front-end or back-end development, and ensure site
+                        functionality. Education varies from self-taught to formal degrees, and developers often work in
+                        diverse environments, advancing through continuous learning and specialization.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Bulding Websites</li>
+                            <li><span>Web Design</span><br>Design Websites</li>
+                            <li><span>programer</span><br>coding</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>jan 2023 - current</span><br>learning web development</li>
+                            <li><span>june 2022 -dec 2022</span><br>learn web design at online </li>
+                            <li><span>2021-2022</span><br>coding on online cources</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>purceving B.Tech</li>
+                            <li><span>2021</span><br>completed HSC</li>
+                            <li><span>2019</span><br>completed SSC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <!-- ***** About End ***** -->
+
+    <!-- ***** Skills start ***** -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Web Development</h2>
+                    <p>A web developer is a professional who creates and maintains websites and web applications. They
+                        use programming languages like HTML, CSS, and JavaScript, collaborating with designers and
+                        integrating databases. Web developers can specialize in front-end (user interface), back-end
+                        (server-side), or both (full-stack), and they stay updated on industry trends for continuous
+                        learning. Education ranges from self-taught to formal degrees. Tools include text editors,
+                        frameworks, and version control systems.</p>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the process of creating the visual and interactive elements of a website, focusing
+                        on aesthetics, user experience, and functionality. Web designers use tools like graphic design
+                        software, such as Adobe Photoshop or Sketch, to create the layout, color schemes, and overall
+                        look of a website. Key aspects of web design include user interface (UI) design, which deals
+                        with the visual elements users interact with, and user experience (UX) design, which involves
+                        enhancing user satisfaction by improving the usability and accessibility of the site.</p>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>Programming</h2>
+                    <p>A programmer is a professional who writes and maintains the source code of computer programs.
+                        Programmers use programming languages such as Python, Java, C++, and others to instruct
+                        computers to perform specific tasks. Their responsibilities include analyzing user needs,
+                        designing algorithms, coding, debugging, and testing software applications. Programmers may
+                        specialize in areas like web development, mobile app development, or systems programming.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** skill end ****** -->
+
+
+    <!-- ***** contact Start ****** -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>conract@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icon">
+                        <a href="#"></a><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"></a><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"></a><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download  class="btn btn2 ">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="your Email" required>
+                        <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p> Copyright @ sanket made with <i class="fa-regular fa-heart"></i> by easy </p>
+        </div>
+    </div>
+    
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+
+</html>
